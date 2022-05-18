@@ -8,13 +8,12 @@ subtitle: ''
 description: 'Blog personal the my hobby'
 keywords:
 author: MarlonGhostk
-language: es
+language: en
 timezone: 'America/Guayaquil'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: kireithemes.github.io
-root: url's pathname
+url: https://kireithemes.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,5 +104,5 @@ theme: fluid
 deploy:
   type: git
   repo: https://github.com/Kireithemes/Kireithemes.github.io.git
-  branch: main
+  branch: gh-pages
   message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
